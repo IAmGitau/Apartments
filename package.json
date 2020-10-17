@@ -1,0 +1,23 @@
+{
+  "name": "apartments",
+  "version": "1.0.0",
+  "description": "Application to register apartments and all its information eg owner, tenants etc",
+  "main": "./src/app.js",
+  "type": "module",
+  "scripts": {
+    "build": "kasky build",
+    "dev": "kasky start-server",
+    "start": "kasky start-server --prod"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@babel/runtime": "^7.6.3",
+    "glob": "^7.1.6",
+    "kasky": "^1.0.5",
+    "uuid": "^8.3.1",
+    "mongoose": "^5.10.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  }
+}
